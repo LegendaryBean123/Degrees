@@ -1,6 +1,5 @@
-#Degrees#
-##Basic Description##
+# Degrees
+## Basic Description
 This project was meant for use to familiarize ourselves with the expectations and procedures of the class while also touching on some basic computer science concepts concepts, those being breadth first search and depth first search.
-##Specifications##
-
-
+## Specifications
+In this project, I built an function that was based on the [6 degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon) game, that says anyone in Hollywood can be connected to Kevin Bacon in 6 steps, where each step consists of finding a film that two actors both starred in. The input is the names of two actors, and function would read the csv files and return a list that connects them both with different actors. The people.csv files contained a list of every actor's IMDb database id, the movies.csv files contained a list of movies, and the stars.csv files showed which actor starred in each movie. In order to build the function, I had to use breadth first search using a queue to sort through the different actors to find the shortest possible path.
